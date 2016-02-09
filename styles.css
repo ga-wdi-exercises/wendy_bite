@@ -7,60 +7,60 @@ body{
   padding:2em;
   font-family: Arial, sans-serif;
 }
-
 h1{
   font-weight:normal;
   font-style:italic;
 }
-
-h1, p{
+h1,p{
   font-family:Georgia, serif;
 }
-
 p{
   line-height:1.5;
 }
-
 img{
   border: 1px solid #ccc;
+  padding:5px;
+  margin-left:1em;
+  float:right;
 }
-
 a{
   color:#66CD9B;
   font-weight:bold;
 }
-
-header, footer{
-  text-align:center;
+a.active{
+  text-decoration:none;
+  color:#fff;
 }
 
-section{
+main{
   border-color:#ccc;
   border-width:1px 0;
   border-style:solid;
   padding:2em 0;
 }
 
-nav, footer{
+header,
+footer{
+  text-align:center;
+}
+header{
+  padding-bottom:20px;
+}
+footer{
+  padding-top:20px;
+}
+nav,
+footer{
   color:#ccc;
+  font-size:0;
 }
-
-nav a{
-  padding:0 0 2em 0;
-  display:inline-block;
-}
-
+nav a,
 footer a{
-  padding: 2em 0;
+  font-size:1rem;
+  padding:0 10px;
   display:inline-block;
 }
-
-img{
-  padding:5px;
-  margin-left:1em;
-}
-
-.active{
-  text-decoration:none;
-  color:#fff;
+nav a:not(:last-of-type),
+footer a:not(:last-of-type){
+  border-right:1px solid #ccc;
 }
