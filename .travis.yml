@@ -1,0 +1,5 @@
+language: node_js
+before_script:
+  - npm install -g jasmine-node
+  - npm install w3c-css
+script: jasmine-node spec
