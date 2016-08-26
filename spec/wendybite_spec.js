@@ -6,6 +6,9 @@ describe("solution", function(){
   it("links to a css file", function(){
     expect(html.match("<link")).toNotBe(null);
   })
+  it("uses utf-8 character encoding", function(){
+    expect(html.match("utf-8")).toNotBe(null);
+  })
 })
 
 describe("css", function(){
