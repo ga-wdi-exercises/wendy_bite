@@ -18,6 +18,8 @@ https://jigsaw.w3.org/css-validator/#validate_by_input
 
 You will notice that certain characters do not render properly. For example, this appears in the header: `RÃ©sumÃ©`. You need to fix this. Start by Googling "strange HTML characters".
 
+There's a Digital Color Meter Application that comes installed on OSX. You can use it to get the exact RGB value of anything on the screen.
+
 ### Bonus
 
 Create and style the resume page for Wendy's site. You can reference the included `WendyBite_Resume.png` file for design.
